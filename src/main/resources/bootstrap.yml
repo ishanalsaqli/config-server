@@ -1,0 +1,24 @@
+#server:
+#  port: 8888
+#
+#spring:
+#  profiles:
+#    active: native
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          searchLocations: classpath:/microservice
+#        bootstrap: true
+
+
+
+#spring:
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/spring-cloud-samples/config-repo
+#          username: trolley
+#          password: strongpassword
+#https://docs.spring.io/spring-cloud-config/docs/current/reference/html/#_spring_cloud_config_server:
